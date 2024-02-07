@@ -1,0 +1,129 @@
+.frameYellow {
+    flex-shrink: 0;
+    width: 25px;
+    height: 500px;
+    display: block;
+    background-color: #ffcd1e;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    left: 430px;
+    top: 58px;
+    border-radius: 0px 10px 10px 0px;
+  } 
+
+  .play{
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 90px;
+    position: absolute;
+    right: 378px;
+    top: 100px
+ }
+
+ @media  screen and (max-width: 1281px) {
+    
+
+     .frameYellow {
+        flex-shrink: 0;
+        width: 25px;
+        height: 500px;
+        display: block;
+        background-color: #ffcd1e;
+        overflow: hidden;
+        z-index: 2;
+        position: absolute;
+        left: 365px;
+        top: 58px;
+        border-radius: 0px 10px 10px 0px;
+      } 
+
+      .play{
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 90px;
+        position: absolute;
+        right: 322px;
+        top: 100px
+     }
+
+     @media  screen and (max-width: 1025px) {
+        .card{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .colo{
+            width: 100%;
+          }
+        
+          /* .colo2{
+            width: 100%;
+        
+          } */
+
+          .mr{
+              margin-right: 0px;
+          }
+
+      
+ }
+
+}
+
+  @media only screen and (max-width: 640px) {
+
+    .frameYellow {
+        display: none;
+      } 
+
+ @media only screen and (min-width: 360px) {
+     .play{
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 90px;
+        position: absolute;
+        right: 288px;
+        top: 100px
+     }
+ }
+  }
+ /* .popup::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s;
+    content: "";
+    position: absolute;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+    transition: all .4s
+} */
+
+ /* .popup::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s;
+    content: "";
+    position: absolute;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    -webkit-animation: ripple 3s infinite;
+    animation: ripple 3s infinite;
+    transition: all .4s cubic-bezier(0.42, 0, 0.58, -0.19);
+} */

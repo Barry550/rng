@@ -1,0 +1,25 @@
+.footerbanner{
+    width: 100%;
+    height: auto;
+    background-image: url('/cta.jpg');
+    background-repeat: repeat-x;
+    background-position: bottom center;
+}
+
+.footer2banner{
+    background-color: #334B35;
+    color: white;
+}
+
+@media  screen and (max-width: 840px) {
+    .center{
+        display: flex;
+        flex-direction: column;
+    }
+
+@media  screen and (max-width: 281px) {
+    .form{
+        width: auto;
+    }
+}
+}

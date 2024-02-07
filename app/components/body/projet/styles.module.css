@@ -1,0 +1,28 @@
+/* @media only screen and (min-width: 360px) {
+    .top{
+        padding-top: 0px;
+    }
+} */
+/* 
+.top{
+    margin-top: 2500px;
+} */
+
+@media only screen and (max-width: 1025px){
+    .top{
+        margin-top: 1050px;
+    }
+}
+
+@media only screen and (max-width: 821px) {
+    .top{
+        margin-top: 1000px;
+    }
+
+    @media  screen and (max-width: 360px){
+        .top{
+            padding-top: 0px;
+        }
+    }
+}
+

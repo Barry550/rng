@@ -1,0 +1,77 @@
+.headerImage {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 60px 60px 60px 60px;
+    overflow: hidden;
+    position: relative;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/tractor.jpg');
+    color: #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+    
+  .line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 463px;
+    height: 1px; /* Ajustez l'épaisseur de la ligne si nécessaire */
+    background-color: #FFF; /* Ajustez la couleur de la ligne selon vos préférences */
+  }
+
+  @media only screen and (max-width: 640px) {
+    .headerImage {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+    position: relative;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/tractor.jpg');
+    color: #FFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 0px 0px 0px;
+    }
+
+    .line {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 318px;
+      height: 1px; /* Ajustez l'épaisseur de la ligne si nécessaire */
+      background-color: #FFF; /* Ajustez la couleur de la ligne selon vos préférences */
+    }
+
+    @media only screen and (min-width: 375px) {
+  
+      .line {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 328px;
+        height: 1px; /* Ajustez l'épaisseur de la ligne si nécessaire */
+        background-color: #FFF; /* Ajustez la couleur de la ligne selon vos préférences */
+      }
+    }
+  }
+

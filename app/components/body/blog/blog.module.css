@@ -1,0 +1,27 @@
+.blogbanner{
+    width: 100%;
+    height: 508px;
+    background: #f6f4ec;
+    z-index: -1;
+    background: #f6f4ec;
+    background-image: url('/blog.png');
+    background-position: bottom center;
+}
+
+
+@media screen and (max-width: 830px){
+    .blogbanner{
+        margin-bottom: 700px;
+    }
+}
+@media screen and (max-width: 770px) {
+.blogbanner{
+    margin-bottom: 1100px;
+}
+
+@media screen and (max-width: 470px) {
+    .blogbanner{
+        margin-bottom: 700px;
+    }
+}
+}

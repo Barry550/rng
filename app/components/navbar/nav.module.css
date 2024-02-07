@@ -1,0 +1,16 @@
+.nav{
+    color: #6e7673;
+    background: #f6f4ec;
+}
+
+@media  screen and (max-width: 1232px){
+  .nav{
+    display: none;
+  }
+
+  @media  screen and (max-width: 640px) {
+      .nav{
+        display: none;
+      }
+  }
+}

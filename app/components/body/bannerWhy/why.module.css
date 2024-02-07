@@ -1,0 +1,60 @@
+
+  .frameYellow {
+    flex-shrink: 0;
+    width: 35px;
+    height: 338px;
+    display: block;
+    background-color: #f1cf69;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+  @media  screen and (max-width: 1281px) {
+
+  .frameYellow {
+    flex-shrink: 0;
+    width: 35px;
+    height: 338px;
+    display: block;
+    background-color: #f1cf69;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    border-radius: 0px 10px 10px 0px;
+  }
+
+
+  .iconSize{
+    font-size: 30px;
+  }
+
+  @media  screen and (max-width: 1025px){
+    .card{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .colo{
+      width: 100%;
+    }
+
+    .frameYellow{
+      display: none;
+    }
+
+    .img{
+      padding-top: 30px;
+    }
+  }
+  }
+  @media only screen and (max-width: 840px) {
+    .frameYellow{
+      display: none;
+    }
+  }
